@@ -1,0 +1,13 @@
+import pyautogui
+import time
+
+# Set the coordinates of the mouse click
+x, y = 100, 100
+
+# Set the delay between clicks (in seconds)
+delay = 0.5
+
+# Loop through and click the mouse continuously
+while True:
+    pyautogui.click(x, y)
+    time.sleep(delay)
